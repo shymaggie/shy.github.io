@@ -1,37 +1,41 @@
-## 东华上仙的小屋
+# 大话西游手游：帮花大比拼运营活动
+@(<Inbox>)[运营活动, 聊天机器人]
 
-You can use the [editor on GitHub](https://github.com/shymaggie/shy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+###活动背景
+>1、3月8日妇女节为受众度较大的节日之一，表达对女性的关爱，话题的热度高
+>2、弥补游戏运营活动空白
+>3、宣传推广游戏最新的时装，促进消费
+>4、促进同帮派的交流
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 活动设计
+```flow
+st=>start: 玩家上传图片和音频参与
+e=>end: 额外加成（1票等于10票）
+op=>operation: 玩家投票
+op2=>operation: 无加成
+cond=>condition: 是否同帮派玩家
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1东华上仙的小屋
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+st->op->cond
+cond(yes)->e
+cond(no)->op2
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 活动元素
+**帮派**：将圈子聚拢在帮派，主要推选帮派女神
+**语音**：增加真人语音展示，让玩家感觉真真实
+**图片**：上传生活照片，发现身边的美女
+**社交**：通过行使帮派特权，发动帮派成员对本帮美女进行投票，促进帮派成员之间的互动
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shymaggie/shy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 活动截图
+- **一、活动说明** ：
+活动时间：2018年3月8日 - 2018年3月15日5点，活动奖励如下：
+1.本服排名前三的玩家，获得时装(1个月) + 绑定染料(10个)
+2.全服排名第一的玩家，获得时装(3个月) + 绑定染料(20个) +浣彩露
+![活动说明](https://g17chatbot.fp.ps.netease.com/file/5aa7bc197f9d2a362ada23e59ativVSK)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+- **二、全服女神** ：
+每个服务器的第一名将会显示在全服女神
+![全服女神](https://g17chatbot.fp.ps.netease.com/file/5aa7bd4b5e602760d9f6183fJpkM1o2b)
